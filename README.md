@@ -21,7 +21,6 @@ The Medical Chatbot is a custom-built AI-powered conversational agent designed t
 - **Medical Information**: Provides insights into various medical conditions, symptoms, and treatments.
 - **Medication Guidance**: Suggests medications and treatments for common ailments.
 - **Symptom Checker**: Helps users identify potential health issues based on their symptoms.
-- **24/7 Availability**: Offers assistance anytime, anywhere.
 - **Custom RAG Implementation**: Developed a unique RAG system to ensure contextually relevant responses based on user queries.
 
 ## Technologies Used
@@ -42,7 +41,7 @@ The following steps outline the creation and setup process:
 2. **Create the Knowledge Base**:
    - Collect the dataset
    - Gather medical data and resources relevant to user queries.
-   - Store the data in a vector database (e.g., Pinecone) for efficient retrieval.
+   - Store the data in a vector database  Pinecone for efficient retrieval.
 
 3. **Develop the RAG System**:
    - Implement the Retrieval-Augmented Generation approach to fetch relevant data from the knowledge base based on user inputs and generate responses.
